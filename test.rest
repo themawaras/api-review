@@ -1,0 +1,11 @@
+POST http://localhost:8008/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "pocky",
+    "price": 5000
+}
+
+
+###GET DATA
+GET http://localhost:8008/book/ HTTP/1.1
